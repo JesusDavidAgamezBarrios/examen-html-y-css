@@ -41,7 +41,7 @@ body {
     font-weight: 700;
     height: 56px;
     display: flex;
-    align-items: center;
+    align-items: center; /* Asegura que los elementos estén centrados verticalmente */
     color: var(--blue);
 }
 
@@ -49,8 +49,8 @@ body {
     min-width: 60px;
     display: flex;
     justify-content: center;
+    align-self: center; /* Alinea este elemento individualmente */
 }
-
 #sidebar .side-menu {
     width: 100%;
     margin-top: 48px;
@@ -58,4 +58,16 @@ body {
 #sidebar .side-menu li{
     height: 48px;
     background: var(--grey);
+}
+#sidebar .side-menu li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: var(--light-blue);
+    border-radius: 48px;
+}
+
+#sidebar .side-menu li a .text {
+    margin-left: 10px; /* Añade un poco de espacio entre el icono y el texto */
 }

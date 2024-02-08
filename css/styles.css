@@ -441,7 +441,11 @@ body {
 	display: flex;
 flex-direction: row;
 }
-#content main ul li .shop p{
-	display: flex;
+#content main ul li .shop h3 {
 	flex-direction: row;
 }
+
+#content main ul li .shop p {
+	order: 2;
+display: flex;
+flex-direction: row;}

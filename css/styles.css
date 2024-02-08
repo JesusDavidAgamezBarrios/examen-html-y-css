@@ -448,4 +448,5 @@ flex-direction: row;
 #content main ul li .shop p {
 	order: 2;
 display: flex;
-flex-direction: row;}
+flex-direction: row;
+}
